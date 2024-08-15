@@ -1,0 +1,60 @@
+@media screen and (max-width:576px) {
+    .nav-hamburger-menu{
+        display: block;
+        color: white;
+        margin: 10px;
+        font-size: 30px;
+    }
+
+.nav-btn-container{
+    display: none;
+}
+.navbar-main{
+flex-direction: row;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    width: 100%;
+}
+ .main-right-box{
+    width: 100%;
+    position: relative;
+    padding: 0 50px;
+}
+.main-left-box{
+    width: 100%;
+    padding: 0 20px;
+}
+
+.workout-icon{
+    top: 10%;
+    left: 65%;
+    width: 160px;
+    height: 100px;
+}
+.tutorial-icon{
+    top: 60%;
+    right: 55%;
+    width: 150px;
+    height: 100px;
+}
+.habit-menu{
+    display: grid;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    width: 100%;
+}
+.habit-image-group{
+    display: grid;
+    grid-template-columns: repeat(4), 1fr;
+    gap: 20px;
+}
+/* .hbt-img-c2{
+    display: grid;
+    flex-direction: column;
+} */
+}
