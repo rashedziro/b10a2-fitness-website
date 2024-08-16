@@ -108,7 +108,7 @@ flex-direction: row;
 }
 .pr-img{
     width: 100%;
-    /* height: 100%; */
+    height: 100%;
     position: relative;
     margin: 15px 0;
     /* justify-content: center; */
@@ -119,7 +119,12 @@ flex-direction: row;
     /* object-fit: none; */
 }
 .img-hdr{
-    color: rgb(247, 245, 245);
+    color: rgb(15, 15, 15);
+    position: absolute;
+    top: 35%;
+    right: 30%;
+    width: 200px;
+    height: 100px;
 }
 /* testimonial section ends here */
 /* footer starts here */
