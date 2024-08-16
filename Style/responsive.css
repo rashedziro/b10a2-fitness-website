@@ -95,4 +95,46 @@ flex-direction: row;
     height: 100px; */
 }
 /* team img ends here */
+/* testimonial section starts here */
+.testimonial{
+    display: flex;
+    flex-direction: column;
+}
+.testimonial-info{
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+    /* height: 100%; */
+}
+.pr-img{
+    width: 100%;
+    /* height: 100%; */
+    position: relative;
+    margin: 15px 0;
+    /* justify-content: center; */
+}
+.pr-img img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: none; */
+}
+.img-hdr{
+    color: rgb(247, 245, 245);
+}
+/* testimonial section ends here */
+/* footer starts here */
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.get-started{
+    text-align: left;
+    padding: 0 10px;
+}
+.company-name-footer{
+    text-align: left;
+    padding: 0 10px;
+}
+/* footer ends here */
 }
