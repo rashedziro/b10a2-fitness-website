@@ -161,17 +161,150 @@
 /* extra miles starts here */
 .extra-miles{
     max-width: 1280px;
-    background-color: black;
+    background-color: rgba(243, 240, 240, 0.123);
     margin: 0 auto;
     color: white;
     display: flex;
-    padding-top: 20px;
+    justify-content: space-between;
+    padding: 30px 30px;
+    border-radius: 20px;
+}
+.left-box-extramiles{
+    width: 50%;
+    padding: 20px 20px;
+}
+.right-box-extramiles{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
 }
 .right-box-extramiles img{
     width: 336px;
     height: 312px;
     border-radius: 5%;
     object-fit: cover;
+    width: 60%;
     /* position: relative; */
 }
-/* extra miles ends here */
+.calculator{
+    color: white;
+    align-items: center;
+    background-color: black;
+    max-width: 1280px;
+    padding: 40px 80px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+.cal-main{
+    max-width: 1280px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: rgba(243, 240, 240, 0.123);
+    margin: 0 auto;
+    padding: 20px 40px;
+}
+.bmi-chart{
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    width: 50%;
+    text-align: center;
+    padding: 50px auto;
+}
+.bmi-chart-box{
+    padding: 20px;
+}
+.bmi-chart-box h1{
+    margin: 20px;
+}
+.bmi-chart div{
+    border: 1px solid rgba(243, 240, 240, 0.123);
+}
+.calculator-chart{
+    width: 50%;
+    margin: 0 auto
+}
+/* form conatiner starts here */
+.form-container {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+}
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.form-grid .full-width {
+    grid-column: span 2;
+}
+.form-grid input[type="text"],
+.form-grid select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.form-grid input[type="submit"] {
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 16px;
+    grid-column: span 2;
+}
+/* form container ends here */
+
+/* team div starts here */
+.team-table{
+    color: white;
+    align-items: center;
+    background-color: black;
+    max-width: 1280px;
+    padding: 40px 80px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+.team-img-group{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    max-width: 1280px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    margin: 0 auto;
+    grid-gap: 20px;
+    border-radius: 10px;
+    width: 80%;
+    align-items: center;
+    text-align: left;
+}
+.team-img{
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+.team-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.team-member-name{
+    position: absolute;
+    top: 80%;
+    right: 45%;
+    width: 200px;
+    height: 100px;
+}

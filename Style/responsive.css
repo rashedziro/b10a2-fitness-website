@@ -53,8 +53,46 @@ flex-direction: row;
     grid-template-columns: repeat(4), 1fr;
     gap: 20px;
 }
-/* .hbt-img-c2{
-    display: grid;
+.extra-miles{
+    display: flex;
     flex-direction: column;
-} */
+    
+}
+.left-box-extramiles{
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+}
+.right-box-extramiles{
+    width: 100%;
+    position: relative;
+    margin: 15px auto;
+    justify-content: center;
+}
+/* calculator form starts here */
+.cal-main{
+    display: flex;
+    flex-direction: column;
+}
+.bmi-chart-box{
+    width: 100%;
+}
+.calculator-chart{
+    width: 100%;
+}
+/* calculator form ends here */
+
+/* team img starts here */
+.team-img-group{
+    display: flex;
+    flex-direction: column;
+}
+.team-member-name{
+    position: absolute;
+    top: 80%;
+    right: 40%;
+    /* width: 200px;
+    height: 100px; */
+}
+/* team img ends here */
 }
